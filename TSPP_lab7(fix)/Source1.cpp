@@ -25,7 +25,6 @@ void Student_Menu(list<Mark> allMarks)
 		{
 		case 1:
 			studientUser.Show_specific_studient_marks(allMarks);
-			system("pause");
 			break;
 		case 2:
 			return;
